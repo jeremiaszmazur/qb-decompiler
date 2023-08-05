@@ -1,7 +1,7 @@
 {
   "name": "QB Decompiler",
-  "version": "1.0.0",
-  "description": "QB Decompiler",
+  "version": "0.0.1",
+  "description": "QBScript Decompiler for THAW",
   "main": "dist/bundle.js",
   "scripts": {
     "lint": "tslint -p .",
