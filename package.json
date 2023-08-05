@@ -1,5 +1,5 @@
 {
-  "name": "QB Decompiler",
+  "name": "qb-decompiler",
   "version": "0.0.1",
   "description": "QBScript Decompiler for THAW",
   "main": "dist/bundle.js",
