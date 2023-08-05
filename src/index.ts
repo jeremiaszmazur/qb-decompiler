@@ -1,4 +1,5 @@
-import fs from 'fs';
+import * as fs from 'fs';
+import * as path from 'path';
 import useDecompiler from './useDecompiler';
 
 // Check if the file path was provided
