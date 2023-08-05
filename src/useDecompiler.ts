@@ -3,7 +3,7 @@ interface DecodedItem {
     value1?: number,
     value2?: number,
     value3?: number,
-    value?: number,
+    value?: number | string,
     length?: number
 }
 
@@ -49,7 +49,7 @@ export default () => {
             } else if (item.type === "Integer") {
                 script += `:i %i(${item.value})\n`;
             } else if (item.type === "String") {
-                script += `:i $printf$%S(${item.value.length},"${item.value}")\n`;
+                script += `:i $printf$%S(${(item?.value as string).length},"${item.value}")\n`;
             }
         }
 
